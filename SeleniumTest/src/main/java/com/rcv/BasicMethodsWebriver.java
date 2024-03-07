@@ -15,7 +15,7 @@ public class BasicMethodsWebriver {
         ChromeDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
 
-        // METHODS BASIC:
+        // METHODS BASIC NA WEBDRIVER INTERFACE:
 
          /*get(java.lang.String url)
         	= CARREGA UMA NOVA PÁGINA DA WEB NA JANELA ATUAL DO NAVEGADOR*/
@@ -73,7 +73,7 @@ public class BasicMethodsWebriver {
         String windowhandle = driver.getWindowHandle();
         System.out.println(windowhandle);
 
-        
+
         /*getWindowHandles()
            = RETORNE UM CONJUNTO DE IDENTIFICADORORES DE JANELA QUE PODEM SER USADOS PRA ITERAR TODAS AS JANELAS ABERTAS DESTA INSTÂNCIA DO WEBDRIVER
                 PASSANDO-AS PARA
